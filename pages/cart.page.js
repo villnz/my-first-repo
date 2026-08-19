@@ -12,6 +12,6 @@ export class CartPage {
         await this.continueShoppingButton.click();
     }
     async getCartItemCount(){
-        return await this.cartItems.count();
+        return this.cartItems.count();
     }
 }
